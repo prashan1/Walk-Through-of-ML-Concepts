@@ -1,12 +1,12 @@
-										#Hands On Machine Learning (Aurelien Geron)
+										HANDS-ON-MACHINE-LEARNING(Aurelien Geron)
 									
 30-9-20	
-#Day 1:	
-                   Batch Learning - non incremental, restart
-								   Online Learing - incremental ,on the fly ,mini batches
+Day 1:	
+                Batch Learning - non incremental, restart
+                Online Learing - incremental ,on the fly ,mini batches
 								
-									      		    GENERALIZATION  
-								   Instance-based Learning - adapting by similarity KNN
-								   Model-based Learning - typical LinearRegression
-								   
-								   Training Set, Validation Set, Test Set
+                             GENERALIZATION  
+                Instance-based Learning - adapting by similarity KNN
+                Model-based Learning - typical LinearRegression
+                                   
+                Training Set, Validation Set, Test Set
