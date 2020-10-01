@@ -2,11 +2,23 @@
 									
 30-9-20	
 Day 1:	
-                Batch Learning - non incremental, restart
-                Online Learing - incremental ,on the fly ,mini batches
+                   Batch Learning - non incremental, restart
+                   Online Learing - incremental ,on the fly ,mini batches
 								
-                             GENERALIZATION  
-                Instance-based Learning - adapting by similarity KNN
-                Model-based Learning - typical LinearRegression
+                               GENERALIZATION  
+                   Instance-based Learning - adapting by similarity KNN
+                   Model-based Learning - typical LinearRegression
                                    
-                Training Set, Validation Set, Test Set
+                   Training Set, Validation Set, Test Set
+
+01-10-20            
+Day 2:		  
+		   P.Metrics for Regressin - RMSE( outlier sensitive), MAE
+		   Metrics for Classificatin - Precision(FP), Recall(FN)
+		   f Beta, Accuracy_Score( Equal Distribution of Target Class)
+									
+		   Feature Normalization - Range of dataset 0 - 1
+		   Feature Standardization - Dataset show Gaussian Distribution
+								   
+		   Gaussian Distribution - Bell Shaped Curve
+		   1std = 68%, 2std = 95%, 3std = 99.7%
