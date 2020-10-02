@@ -22,3 +22,11 @@ Day 2:
 								   
 		   Gaussian Distribution - Bell Shaped Curve
 		   1std = 68%, 2std = 95%, 3std = 99.7%
+
+02-10-20
+Day 3:
+		   OrdinalImputer, One-Hot-Encoding
+		   
+		   K-Fold Cross Validation - Checking for Overfitting
+		   
+		   HypterParameter Tuning - GridSearchCV, RandomizedSearchCV
