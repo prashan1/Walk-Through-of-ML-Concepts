@@ -30,3 +30,8 @@ Day 3:
 		   K-Fold Cross Validation - Checking for Overfitting
 		   
 		   HypterParameter Tuning - GridSearchCV, RandomizedSearchCV
+		   
+03-10-20
+Day 4:
+		   Linear Regression -- The Normal Equation,
+		   Gradient Descent - Batch GD, Stochastic SD, Mini-batch GD
