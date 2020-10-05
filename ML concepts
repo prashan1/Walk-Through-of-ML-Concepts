@@ -34,4 +34,14 @@ Day 3:
 03-10-20
 Day 4:
 		   Linear Regression -- The Normal Equation,
+		   			Or
 		   Gradient Descent - Batch GD, Stochastic SD, Mini-batch GD
+		   
+04-10-20
+Day 5:
+		  Polynomial Regression - MOre Feature with extra power( degree )
+				Regularized Regression
+		  Ridge Regression aka Squared penalty aka L2 norm - @*W**2 -- slope closer to 0
+		  Lasso Regression aka Absolute penaly aka L1 norm - @*|W| -- slope could be 0
+		  Elastic Net - Sum of Ridge( r=0 ) And Lasso Regression( r == 1 ) 
+		  EarlyStopping - Stopping the training as soon as valid error reaches min
