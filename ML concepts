@@ -45,3 +45,10 @@ Day 5:
 		  Lasso Regression aka Absolute penaly aka L1 norm - @*|W| -- slope could be 0
 		  Elastic Net - Sum of Ridge( r=0 ) And Lasso Regression( r == 1 ) 
 		  EarlyStopping - Stopping the training as soon as valid error reaches min
+		  
+05-10-20
+Day 6:	
+		 Logistic Regression - Sigmoid Functin(h0) for probability
+		 
+		
+		
