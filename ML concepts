@@ -49,6 +49,15 @@ Day 5:
 05-10-20
 Day 6:	
 		 Logistic Regression - Sigmoid Functin(h0) for probability
+
+06-10-20
+Day 7:	
+		 Support Vector Classifier - Marginal Lines Hyperplane Marginal Lines
+		 Hard Margin Classifier - follow margin violation( no misclassification ) low bias, high variance
+		 SOft Margin Classifier - missclassifiaction allowed ( low varaince, high bias )
+		 Support Vecotr Machines - Kernal( NON LINEAR )( classify by transforming 1D --> 2D ), ex polynomial( + features ), rbf, sigmoid
+		 Cost Function 1/2*W*W + {C (SUM ( zeta )) for allowing misclassification }
+		 Low Weights - high Margin - Less variance, Less Bias
 		 
 		
 		
