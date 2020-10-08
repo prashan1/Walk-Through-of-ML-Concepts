@@ -58,6 +58,12 @@ Day 7:
 		 Support Vecotr Machines - Kernal( NON LINEAR )( classify by transforming 1D --> 2D ), ex polynomial( + features ), rbf, sigmoid
 		 Cost Function 1/2*W*W + {C (SUM ( zeta )) for allowing misclassification }
 		 Low Weights - high Margin - Less variance, Less Bias
-		 
 		
-		
+07-10-20
+ Day 8:
+   
+		Population, Sample, Variance, Std Devaition
+                Decision Tree - Criterion( IMPURITY ) - GINI, ENTROPY
+                GINI - 1 - p(+)**2 - p(-)**2  --->>> Gini Gain
+                Entropy - -p*logp ---->>>>> Information Gain
+             
