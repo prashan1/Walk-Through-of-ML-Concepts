@@ -64,6 +64,6 @@ Day 7:
    
 		Population, Sample, Variance, Std Devaition
                 Decision Tree - Criterion( IMPURITY ) - GINI, ENTROPY
-                GINI - 1 - p(+)**2 - p(-)**2  --->>> Gini Gain
-                Entropy - -p*logp ---->>>>> Information Gain
+                GINI - 1 - p(+)**2 - p(-)**2  --->>> Gini Gain( gini index - (GI(left) + GI(right) )
+                Entropy - -p*logp ---->>>>> Information Gain( entropy - dskl)
              
