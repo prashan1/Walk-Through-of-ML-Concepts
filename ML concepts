@@ -66,4 +66,20 @@ Day 7:
                 GINI - 1 - p(+)**2 - p(-)**2  --->>> Gini Gain( gini index - (GI(left)*N + GI(right)*N )
                 Entropy - -p*logp ---->>>>> Information Gain( entropy - ||| )
 		( InfomrationGain, Gini Gain ) should be high == loww gini inidex or entropy == low impurity === ( High Impurity Removed )
+		
+08-10-20
+Day 8
+					    Ensembling
+		Voting Classifier -->> Hard Voting Classifier( ex. majority votes ) Soft Voting Classifier( ex. Average of Proba )
+		Bagging --> Bootstrap Aggretition ( feature and instance sampling with replacemnt i.e high non correlated models i.e trading bias for variance i.e higher perfomance) , majority votes, average
+		Pasting --> Sampling without replacemnt ( bootstrap == False )
+		Out - Of - Bag Instances --> oob_score = True, for validation
+		  Random Forest Classifier/Regressor, Feature_importances
+		  Extra-Tree --> Extremely Randomized Trees --> for creation of DTrees random threshold is considred for a feature
+		Boosting --> training weak learner sequenctly to create a strong learner by correcting the error of predecissor
+		  Adaptive boosting --> Weights of wrong instaces if increased and other's decresed to maximize it's probabilty for creating next sample( with more freq of errors ) --> Hard Voting 
+		    For Multiclass ( algorithm == SAMME.R )
+	          Gradient Boosting Classifer/REgressor -->> Tries to fit the RESIDUAL ERROR OF PREDECESSOR with the new instances 
+		Stacking --> Predictions of Weak Learner is samples for the Strong learner( Blender )
+		
              
