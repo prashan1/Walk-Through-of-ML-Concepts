@@ -68,7 +68,7 @@ Day 7:
 		( InfomrationGain, Gini Gain ) should be high == loww gini inidex or entropy == low impurity === ( High Impurity Removed )
 		
 08-10-20
-Day 8
+Day 9:
 					    Ensembling
 		Voting Classifier -->> Hard Voting Classifier( ex. majority votes ) Soft Voting Classifier( ex. Average of Proba )
 		Bagging --> Bootstrap Aggretition ( feature and instance sampling with replacemnt i.e high non correlated models i.e trading bias for variance i.e higher perfomance) , majority votes, average
@@ -81,5 +81,15 @@ Day 8
 		    For Multiclass ( algorithm == SAMME.R )
 	          Gradient Boosting Classifer/REgressor -->> Tries to fit the RESIDUAL ERROR OF PREDECESSOR with the new instances 
 		Stacking --> Predictions of Weak Learner is samples for the Strong learner( Blender )
-		
+
+09-10-20
+Day 10:
+
+		PCA -->> Principal Component Analysis ( Fix Curse of Dimensionality )
+		  Projecting our data in PC with minimumn projection loss for preserving maximum variance
+		  PC are obtained from SINGULAR VALUE DECOMPOSITION( svd ) == U ( matrix of components )
+		  projecting = X * U ( : 2 ) by Explained Variance Ratio
+		  Elbow Method or n_estimator = 0.95 ( 95% preserving variance )
+		  t-SNE --> t Distributed Stoichastic Neighbour Embedding  FOR VISUALIZING
+		  
              
