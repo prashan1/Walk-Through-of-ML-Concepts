@@ -49,7 +49,7 @@ Day 5:
 05-10-20
 Day 6:	
 		 Logistic Regression - Sigmoid Functin(h0) for probability
-
+                 Penalty = Ridge(L2) , Lasso (L1)
 06-10-20
 Day 7:	
 		 Support Vector Classifier - Marginal Lines Hyperplane Marginal Lines
