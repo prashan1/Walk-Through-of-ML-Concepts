@@ -119,7 +119,10 @@ Day 12:
 		  Repaet it by multiple times until centroid cannot move no more
 		   REPEAT THIS PROCESS MULTIPLE TIME TO GET THE BEST INERTIA( MSDistance b/w instance and closest centroid )
 		   
-		  Find the best k value using ELBOW METHOD
+		
+12-10-20
+Day 13:		
+		Find the best k value using ELBOW METHOD
 		  
 		  VALIDATING K Value using (( SILHEOUeTE SCORE )) b-a/max(a,b) a == dist b/w every instance with it's cluster, b == dist b/w every clusters
 		  Hence for better validation SILHEOUETE SCORE should be + i.ee b >> a
