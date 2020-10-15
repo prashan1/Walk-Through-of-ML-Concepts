@@ -53,15 +53,19 @@ Day 6:
 06-10-20
 Day 7:	
 		 Support Vector Classifier - Marginal Lines Hyperplane Marginal Lines
+		 
 		 Hard Margin Classifier - follow margin violation( no misclassification ) low bias, high variance
 		 SOft Margin Classifier - missclassifiaction allowed ( low varaince, high bias )
+		 
 		 Support Vecotr Machines - Kernal( NON LINEAR )( classify by transforming 1D --> 2D ), ex polynomial( + features ), rbf, sigmoid
 		 Cost Function 1/2*W*W + {C (SUM ( zeta )) for allowing misclassification }
+		 
 		 Low Weights - high Margin - Less variance, Less Bias
 		
 07-10-20
  Day 8:
                 Population, Sample, Variance, Std Devaition
+		
                 Decision Tree - Criterion( IMPURITY ) - GINI, ENTROPY
                 GINI - 1 - p(+)**2 - p(-)**2  --->>> Gini Gain( gini index - (GI(left)*N + GI(right)*N )
                 Entropy - -p*logp ---->>>>> Information Gain( entropy - ||| )
@@ -71,13 +75,18 @@ Day 7:
 Day 9:
 					    Ensembling
 		Voting Classifier -->> Hard Voting Classifier( ex. majority votes ) Soft Voting Classifier( ex. Average of Proba )
+		
 		Bagging --> Bootstrap Aggretition ( feature and instance sampling with replacemnt i.e high non correlated models i.e trading bias for variance i.e higher perfomance) , majority votes, average
 		Pasting --> Sampling without replacemnt ( bootstrap == False )
+		
 		Out - Of - Bag Instances --> oob_score = True, for validation
+		
 		  Random Forest Classifier/Regressor, Feature_importances
 		  Extra-Tree --> Extremely Randomized Trees --> for creation of DTrees random threshold is considred for a feature
+		  
 		Boosting --> training weak learner sequenctly to create a strong learner by correcting the error of predecissor
-		  Adaptive boosting --> Weights of wrong instaces if increased and other's decresed to maximize it's probabilty for creating next sample( with more freq of errors ) --> Hard Voting 
+		Adaptive boosting --> Weights of wrong instaces if increased and other's decresed to maximize it's probabilty for creating next sample( with more freq of errors ) --> Hard Voting 
+		
 		    For Multiclass ( algorithm == SAMME.R )
 	          Gradient Boosting Classifer/REgressor -->> Tries to fit the RESIDUAL ERROR OF PREDECESSOR with the new instances 
 		Stacking --> Predictions of Weak Learner is samples for the Strong learner( Blender )
@@ -86,10 +95,13 @@ Day 9:
 Day 10:
 
 		PCA -->> Principal Component Analysis ( Fix Curse of Dimensionality )
+		
 		  Projecting our data in PC with minimumn projection loss for preserving maximum variance
+		  
 		  PC are obtained from SINGULAR VALUE DECOMPOSITION( svd ) == U ( matrix of components )
 		  projecting = X * U ( : 2 ) by Explained Variance Ratio
 		  Elbow Method or n_estimator = 0.95 ( 95% preserving variance )
+		  
 		  t-SNE --> t Distributed Stoichastic Neighbour Embedding  FOR VISUALIZING
 		  
 10-10-20
@@ -99,5 +111,21 @@ Day 11:
 		  
 11-10-20
 Day 12:
-		K means Clustering
+		K means Clustering -->> UnsuperVised Learning
+		  Classification by clustering TO GROUP SIMILAR INSTANCES INTO CLUSTERS
+		  
+		  Random n Centroids -- Assign instance class closest to centroid
+		  Take the mean of all the partuclur class and update centroid 
+		  Repaet it by multiple times until centroid cannot move no more
+		   REPEAT THIS PROCESS MULTIPLE TIME TO GET THE BEST INERTIA( MSDistance b/w instance and closest centroid )
+		   
+		  Find the best k value using ELBOW METHOD
+		  
+		  VALIDATING K Value using (( SILHEOUeTE SCORE )) b-a/max(a,b) a == dist b/w every instance with it's cluster, b == dist b/w every clusters
+		  Hence for better validation SILHEOUETE SCORE should be + i.ee b >> a
+		  
+		  If data is ELLIPTICAL SHAPED scale it or use GAUSSIAN MIXTURE MODEl
+		  
+		  
+		  
         
