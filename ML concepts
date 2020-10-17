@@ -129,6 +129,16 @@ Day 13:
 		  
 		  If data is ELLIPTICAL SHAPED scale it or use GAUSSIAN MIXTURE MODEl
 		  
-		  
+
+14-10-20
+Day 14:
+                                DEEP LEARNING
+                ANN, Perceptron, Forward_pass, Backward_pass -- chain_rule
+          
+                Activation Function () Non-linear Output Sigmoid ( proba 0-1 ), TanH( -1 - 1 ), ReLU( max( 0,1 ) +, leakyReLEU
+
+                Loss -- Regression ( MAE, MSE( outliers sens )), classification sparse_cat_CE, cat_CE, binary_CE
+
+                Model-Chekpoint, saving at evey epochs, Early Stopping( patience )
 		  
         
