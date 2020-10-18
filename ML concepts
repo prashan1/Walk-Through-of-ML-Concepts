@@ -159,10 +159,14 @@ Day 15:
 		2* Gradient Descent with momentum --- SUM of all gradient**2
 		3* Nesterov Accelerated Gradient
 		3* AdaGrad Optimizer 
-		4*
+		4* RMSprop
+		5* Adam / padam
 		
 		OVERFITTING PROBLEM FIXES:
 			L1 & L2 Regularization --> removing less important weight( penalizing ) , creating sparse weight matrix   L!
+			DROPOUT
+			Max - Norm Regularizatoin ( scaling weights )
+			less Network layers / Hyperparameters
 				    
 				    
 				    
