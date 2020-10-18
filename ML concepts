@@ -141,4 +141,29 @@ Day 14:
 
                 Model-Chekpoint, saving at evey epochs, Early Stopping( patience )
 		  
-        
+15-10-20
+Day 15:
+		Exploding / Vanishing Gradient problem
+		
+		Weight Initialisation( kernel_initi.. ) 
+				for REGRESSEION ( Uniform Initia..., Glorot/Xavier init ) for Classification( He_init - relu)
+							
+	    	Activation Fun() -- Relu( dead neuron 0 ) --> Leaky ReLU --> SELU( exponential )
+				    
+	    	Batch - Normalization --> Normalizing inputs before/after applying non - linearity
+
+	    	Gradient Clipping ( for exploding G Problem ) using a threshold for a gradient to prevent overshooting
+
+		Optimizers 
+		1* GRadient Descent
+		2* Gradient Descent with momentum --- SUM of all gradient**2
+		3* Nesterov Accelerated Gradient
+		3* AdaGrad Optimizer 
+		4*
+		
+		OVERFITTING PROBLEM FIXES:
+			L1 & L2 Regularization --> removing less important weight( penalizing ) , creating sparse weight matrix   L!
+				    
+				    
+				    
+				    
