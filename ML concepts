@@ -168,6 +168,16 @@ Day 15:
 			Max - Norm Regularizatoin ( scaling weights )
 			less Network layers / Hyperparameters
 				    
-				    
-				    
+4/11/20
+Day 16:
+		Convolutional Layer
+			Filters
+			Stacking Multiple Feature Maps - Convolutional Layers
+			Pooling Layer - MaxPoolingLayer, AveragePooling , GlobalPooling
+		Transfer Learning / CNN Architectures
+			LeNet - 5
+			AlexNet
+			GoogleNet
+			ResNet etcc.
+			
 				    
